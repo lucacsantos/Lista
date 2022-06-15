@@ -1,0 +1,22 @@
+#area{
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 270px;
+}
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+fieldset{
+    background-color: #A7C0DC;
+}
+#tabela{
+    position: relative;
+    left: auto;
+    top: 29%;
+    width: 370px;
+    height: 270px;
+}

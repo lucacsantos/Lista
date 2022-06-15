@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+    <title>Lista</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Produtos em estoque</h1>
+
+    <div id="area">
+     <fieldset>
+        <label>Informe um Produto:</label> <input id="produto" type="text"><br>
+   
+
+    <label>Informe a Quantidade:</label> <input id="qtd" type="number"><br>
+    
+
+    <label>Informe o Preço:</label> <input id="preco" type="number"><br>
+        
+    <div align="right">
+        <button onclick="add()">Adicionar</button>
+    </div>
+
+    </fieldset>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+             
+            </tr>
+        </thead>
+        <tbody id="corpo" style="text-align: center;">
+           
+        </tbody>
+
+    </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
